@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBlue"
+    tools:context=".ui.splash.permission.location.GeoLocationFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/main_card_view"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                style="@style/image_view_style"
+                app:srcCompat="@drawable/ic_group_10" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/main_desc_style"
+                android:text="@string/uses_device_location_in_the_background" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/other_desc_style"
+                android:text="@string/location_allow_desc" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="204dp">
+
+                <View
+                    android:id="@+id/left_circle"
+                    style="@style/my_customleft_view"
+                    android:background="@drawable/half_circle_left" />
+
+                <View style="@style/my_dot_line_view" />
+
+                <View
+                    android:id="@+id/right_circle"
+                    style="@style/my_custom_rigth_line" />
+
+            </RelativeLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/allow_location_btn"
+                style="@style/my_checker_btn"
+                android:layout_marginBottom="32dp"
+                android:text="@string/allow"
+                app:cornerRadius="11dp" />
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>

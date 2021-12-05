@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Kiddo</string>
+    <string name="enter_code">Введите код, который вы получили в родительском приложении.</string>
+    <string name="about_phone_connect_info">Чтобы соединить телефон ребенка с телефоном родителей</string>
+    <string name="cannot_find_code"><u>Я не могу найти код</u></string>
+<!--    <string name="accept_terms_policy">Я принимаю <a href='http://www.mysite.html'> Условия использования </a> и <a href='http://www.mysite.html' >Политику конфиденциальности </a></string>-->
+<!--    <string name="accept_terms_policy">Я accept <u><a href="http://www.redbus.in/mob/mTerms.aspx" >the Terms of Use </a></u> and <u><a href="http://www.redbus.in/mob/mTerms.aspx" >Privacy Policy</a></u></string>-->
+
+    <string name="accept_terms_service">Примите условия Соглашения о предоставлении услуг</string>
+    <string name="your_phone_now_connected">Телефон вашего ребенка подключен!</string>
+    <string name="allow_geolocation">Разрешите доступ к геолокации и другие функции, чтобы имя приложения могло работать на телефоне вашего ребенка</string>
+    <string name="enter_age">Пожалуйста, введите возраст вашего ребенка</string>
+
+    <string name="i_accept">Я принимаю </string>
+<!--    <string name="accept"> qabul qilaman </string>-->
+    <string name="the_terms_of_use">Условия использования </string>
+    <string name="and"> и </string>
+    <string name="privacy_policy">Политику конфиденциальности</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_welcome">Добро пожаловать</string>
+    <string name="uses_device_location_in_the_background">Kiddo использует местоположение устройства в фоновом режиме</string>
+    <string name="location_allow_desc">Чтобы геолокация продолжала работать, Kiddo собирает дату местоположения, даже когда приложение закрыто или вы его не используете.</string>
+    <string name="switch_off_battery_saver">Отключить режим энергосбережения</string>
+    <string name="battery_saver_desc">Чтобы приложение могло отправлять данные о местонахождении вашего ребенка в фоновом режиме</string>
+    <string name="allow_monitor_mode_of_transport">Разрешить контролировать вид транспорта</string>
+    <string name="transport_your_child_used">Таким образом, приложение может определить, каким видом транспорта пользуется ваш ребенок.</string>
+    <string name="switch_on_mobile_data_transfer">Включите мобильную передачу данных</string>
+    <string name="about_location">Чтобы приложение могло отправлять данные о местонахождении вашего ребенка</string>
+    <string name="desc_mobile_network">Чтобы приложение могло отправлять данные о местонахождении вашего ребенка</string>
+    <string name="first_description">1. Откройте настройки (кнопка внизу экрана)</string>
+    <string name="second_description">2. Включите мобильную передачу данных</string>
+    <string name="what_parent_can_do">Что могут делать родители</string>
+    <string name="your_location">Родители могут видеть ваше местоположение, они будут меньше беспокоиться о вас и не будут много звонить</string>
+    <string name="parents_listen">Родители могут прислушиваться к окружающим, чтобы вы были в безопасности</string>
+    <string name="app_statistic_desc">Родители будут видеть, сколько времени вы проводите в приложениях. Но они не будут знать, какими веб-сайтами вы пользуетесь, что смотрите, и не могут читать ваши сообщения.</string>
+    <string name="choose_language">Выберите язык</string>
+    <string name="choose_language_definition">Пожалуйста, выберите нужный язык. Вы можете изменить позже в профиле.</string>
+    <string name="next">Следующий</string>
+
+
+    <string name="continue_text">Продолжать</string>
+    <string name="allow">Разрешать</string>
+    <string name="accept_the_terms">Примите условия</string>
+    <string name="tap_to_sending_emergency_alert">Нажмите, чтобы отправить экстренное оповещение</string>
+    <string name="set">Установленный</string>
+    <string name="back">Назад</string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="see_where_you_are">Смотри где ты</string>
+    <string name="listen_to_what_s_going_on_around">Слушай, что происходит вокруг</string>
+    <string name="see_the_app_statistics">Смотрите статистику приложения</string>
+
+    <string name="please">Пожалуйста</string>
+    <string name="o_zbekcha">Узбекский</string>
+    <string name="ruskiy">Русский</string>
+    <string name="english">Aнглийский</string>
+    <string name="please_enter_recieved_code">Пожалуйста, введите полученный код в родительском приложении.</string>
+    <string name="please_enter_your_childs_age">Пожалуйста, введите возраст вашего ребенка</string>
+    <string name="please_accept_terms_use">Примите условия использования</string>
+    <string name="we_send_new_code">Мы отправляем вам новый код</string>
+
+    <string name="allow_keylogging">Разрешить кейлоггер</string>
+    <string name="keylog_desc">Это разрешение позволяет вам видеть, что вы пишете</string>
+    <string name="send_message_to_parent">Сообщение отправлено родителям</string>
+
+</resources>

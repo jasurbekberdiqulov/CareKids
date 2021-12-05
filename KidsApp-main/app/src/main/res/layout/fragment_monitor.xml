@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBlue"
+    tools:context=".ui.splash.permission.monitoring.MonitorFragment">
+
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="24dp"
+        style="@style/main_card_view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                style="@style/image_view_style"
+                app:srcCompat="@drawable/ic_data_transfer" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:text="@string/switch_on_mobile_data_transfer"
+                style="@style/main_desc_style" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                android:text="@string/about_location"
+                style="@style/other_desc_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="204dp">
+
+                <View
+                    android:id="@+id/left_circle"
+                    android:background="@drawable/half_circle_left"
+                    style="@style/my_customleft_view" />
+
+                <View style="@style/my_dot_line_view" />
+
+                <View
+                    android:id="@+id/right_circle"
+                    style="@style/my_custom_rigth_line" />
+
+            </RelativeLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/set_monitor_btn"
+                android:layout_marginBottom="32dp"
+                android:text="@string/set"
+                app:cornerRadius="11dp"
+                style="@style/my_checker_btn" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>

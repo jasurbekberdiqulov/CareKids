@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Kiddo</string>
+    <string name="enter_code">Ota -ona ilovasida olingan kodni kiriting</string>
+    <string name="about_phone_connect_info">Farzandingizning telefonini ota -onasining telefoniga ulash uchun</string>
+    <string name="cannot_find_code"><u>Kodni topa olmayapman</u></string>
+    <!--    <string name="accept_terms_policy">Men <a href='http://www.mysite.html'> Foydalanish shartlari </a> va <a href='http://www.mysite.html'> Maxfiylik siyosatini </a> qabul qilaman</string>-->
+    <!--    <string name="accept_terms_policy">Men accept <u><a href="http://www.redbus.in/mob/mTerms.aspx" >the Terms of Use </a></u> and <u><a href="http://www.redbus.in/mob/mTerms.aspx" >Privacy Policy</a></u></string>-->
+
+    <string name="i_accept" formatted="true" translatable="true">Men qabul qilaman  </string>
+    <string name="the_terms_of_use"> Foydalanish shartlari </string>
+    <string name="and"> va </string>
+    <string name="privacy_policy"> Maxfiylik siyosatini</string>
+    <string name="accept_terms_service">Xizmat shartnomasi shartlarini qabul qiling</string>
+    <string name="your_phone_now_connected">Farzandingizning telefoni ulandi!</string>
+    <string name="allow_geolocation">Kiddo farzandingiz telefonida ishlashi uchun geolokatsiyaga kirish va boshqa funksiyalarga ruxsat bering</string>
+    <string name="enter_age">Farzandingizning yoshini kiriting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_welcome">Xush kelibsiz</string>
+    <string name="uses_device_location_in_the_background">Kiddo orqa fonda qurilma joylashuvidan foydalanadi</string>
+    <string name="location_allow_desc">Geolokatsiya ishini davom ettirish uchun Kiddo ilova yopilgan yoki siz foydalanmayotgan paytingizda ham joylashuv sanasini to\'playdi</string>
+    <string name="switch_off_battery_saver">Switch off battery saver</string>
+    <string name="battery_saver_desc">Shunday qilib, ilova farzandingizning manzilini orqa fonda yuborishi mumkin</string>
+    <string name="allow_monitor_mode_of_transport">Monitorning transport turiga ruxsat bering</string>
+    <string name="transport_your_child_used">Shunday qilib, ilova sizning farzandingiz qaysi transport turidan foydalanganligini aniqlay oladi</string>
+    <string name="switch_on_mobile_data_transfer">Mobil ma\'lumot uzatishni yoqing</string>
+    <string name="about_location">Shunday qilib, ilova farzandingizning joylashuvi haqidagi ma\'lumotlarni yuborishi mumkin</string>
+    <string name="desc_mobile_network">Ma\'lumot uzatishni mobil tarmoq orqali yoqish uchun quyidagilarni bajaring</string>
+    <string name="first_description">1. Sozlamalarni oching (ekranning pastki qismidagi tugma)</string>
+    <string name="second_description">2. Mobil ma\'lumot uzatishni yoqing</string>
+    <string name="what_parent_can_do">Ota -ona nima qila oladi</string>
+    <string name="your_location">Ota -onalar sizning manzilingizni ko\'ra oladilar, ular siz haqingizda qayg\'urmaydi va ko\'p qo\'ng\'iroq qilmaydi</string>
+    <string name="parents_listen">Ota -onalar sizning xavfsizligingiz uchun atrofingizni tinglashlari mumkin</string>
+    <string name="app_statistic_desc">Ota -onalar ilovalarga qancha vaqt sarflayotganingizni ko\'rishadi. Ammo ular siz qaysi veb -saytlardan foydalanayotganingizni, nima ko\'rayotganingizni bilishmaydi va sizning xabarlaringizni o\'qiy olmaydilar.</string>
+    <string name="choose_language">Tilni tanglang</string>
+    <string name="choose_language_definition">Iltimos, qaysi tilni xohlayotganingizni tanlang. Keyinroq profildan o\'zgartirishingiz mumkin.</string>
+    <string name="next">Keyingisi</string>
+
+
+    <string name="continue_text">Davom etish</string>
+    <string name="allow">Ruxsat bering</string>
+    <string name="accept_the_terms">Shartlarni qabul qiling</string>
+    <string name="tap_to_sending_emergency_alert">Favqulodda ogohlantirish yuborish uchun bosing</string>
+    <string name="set">O\'rnatish</string>
+    <string name="back">Orqaga</string>
+    <string name="open_settings">Sozlamalarni ochish</string>
+    <string name="see_where_you_are">Qayerda ekanligingizni ko\'radi</string>
+    <string name="listen_to_what_s_going_on_around">Atrofda nima bo\'layotganini tinglaydi</string>
+    <string name="see_the_app_statistics">Ilovalar statistikasini ko\'radi</string>
+
+    <string name="please">Iltimos</string>
+    <string name="o_zbekcha">O\'zbek</string>
+    <string name="ruskiy">Rus</string>
+    <string name="english">Ingliz</string>
+    <string name="please_enter_recieved_code">Iltimos, ota -ona ilovasida olingan kodni kiriting</string>
+    <string name="please_enter_your_childs_age">Iltimos farzandingizni yoshini kiriting</string>
+    <string name="please_accept_terms_use">Iltimos foydalanish shartlariga rozilik bildiring</string>
+    <string name="we_send_new_code">Sizga yangi kod yuboramiz </string>
+
+<string name="send_message_to_parent"> Ota onaga xabar jo\'natildi</string>
+
+    <string name="allow_keylogging">Keylogga ruxsat bering</string>
+    <string name="keylog_desc">Bu ruxsat sizni nima yozayotganingizni ko\'rish imkonini beradi</string>
+</resources>

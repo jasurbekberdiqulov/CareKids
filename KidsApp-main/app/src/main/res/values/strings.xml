@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Kiddo</string>
+    <string name="enter_code">Enter the code you received in the Parent app</string>
+    <string name="about_phone_connect_info">To connect your child’s phone with parent’s phone</string>
+    <string name="cannot_find_code"><u>I can’t find the code</u></string>
+    <string name="i_accept">I accept </string>
+    <string name="the_terms_of_use">the Terms of Use </string>
+    <string name="and"> and </string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="accept_terms_service">Accept the terms of the Service Agreement</string>
+    <string name="your_phone_now_connected">Your child’s phone is now connected!</string>
+    <string name="allow_geolocation">Allow geolocation access and other functions so that Appname can work on your child’s phone</string>
+    <string name="enter_age">Please enter your child’s age</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_welcome">Welcome</string>
+    <string name="uses_device_location_in_the_background">Kiddo uses device location in the background</string>
+    <string name="location_allow_desc">To keep geolacation working, Kiddo collects location date even when the app is closed or you are not using it</string>
+    <string name="switch_off_battery_saver">Switch off battery saver</string>
+    <string name="battery_saver_desc">So that the app can send your child’s location in the background</string>
+    <string name="allow_monitor_mode_of_transport">Allow monitor mode of transport</string>
+    <string name="transport_your_child_used">So the app can determine what mode of transport your child used</string>
+    <string name="switch_on_mobile_data_transfer">Switch on mobile data transfer</string>
+    <string name="about_location">So that the app can send data about your child’s location</string>
+    <string name="desc_mobile_network">Do the following to turn on data transfer over the mobile network:</string>
+    <string name="first_description">1. Open the Settings (bottom-of screen button)</string>
+    <string name="second_description">2. Turn on Mobile Data Transfer</string>
+    <string name="what_parent_can_do">What parent can do</string>
+    <string name="your_location">Parents can see your location, they will worry less about you and won’t calling a lot</string>
+    <string name="parents_listen">Parents can listen to your surroundings to make you’re safe</string>
+    <string name="app_statistic_desc">Parents will see how much time you spend in apps. But they won’t know what websites you are using, what you are watching and can’t read your messages.</string>
+    <string name="choose_language">Choose language</string>
+    <string name="choose_language_definition">Please choose which language you want. You can change later in the profile.</string>
+    <string name="next">Next</string>
+
+
+    <string name="continue_text">Continue</string>
+    <string name="allow">Allow</string>
+    <string name="accept_the_terms">Accept the terms</string>
+    <string name="tap_to_sending_emergency_alert">Tap to sending emergency alert</string>
+    <string name="set">Set</string>
+    <string name="back">Back</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="see_where_you_are">See where you are</string>
+    <string name="listen_to_what_s_going_on_around">Listen to what’s going on around</string>
+    <string name="see_the_app_statistics">See the app statistics</string>
+
+    <string name="please">Please</string>
+    <string name="o_zbekcha">Uzbek</string>
+    <string name="ruskiy">Russian</string>
+    <string name="english">English</string>
+    <string name="please_enter_recieved_code">Please ,enter the code you received in the Parent app</string>
+    <string name="please_enter_your_childs_age">Please enter your child\'s age</string>
+    <string name="please_accept_terms_use">Please agree to the terms of use</string>
+    <string name="we_send_new_code">We send you new code </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="allow_keylogging">Allow keylogging</string>
+    <string name="keylog_desc">This permission allows you to see what you are writing</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="send_message_to_parent"> A message was sent to the parents</string>
+
+</resources>

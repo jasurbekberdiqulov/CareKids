@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/languageFragment">
+
+    <fragment
+        android:id="@+id/confirmCodeFragment"
+        android:name="com.example.childapp.ui.splash.start.code.ConfirmCodeFragment"
+        android:label="fragment_confirm_code"
+        tools:layout="@layout/fragment_confirm_code" >
+        <action
+            android:id="@+id/action_confirmCodeFragment_to_confirmAgeFragment"
+            app:destination="@id/confirmAgeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmAgeFragment"
+        android:name="com.example.childapp.ui.splash.start.age.ConfirmAgeFragment"
+        android:label="fragment_confirm_age"
+        tools:layout="@layout/fragment_confirm_age" >
+        <action
+            android:id="@+id/action_confirmAgeFragment_to_geoLocationFragment"
+            app:destination="@id/geoLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/geoLocationFragment"
+        android:name="com.example.childapp.ui.splash.permission.location.GeoLocationFragment"
+        android:label="fragment_geo_location"
+        tools:layout="@layout/fragment_geo_location" >
+        <action
+            android:id="@+id/action_geoLocationFragment_to_batterySaverFragment"
+            app:destination="@id/batterySaverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/batterySaverFragment"
+        android:name="com.example.childapp.ui.splash.permission.battery.BatterySaverFragment"
+        android:label="fragment_battery_saver"
+        tools:layout="@layout/fragment_battery_saver" >
+        <action
+            android:id="@+id/action_batterySaverFragment_to_microphoneFragment"
+            app:destination="@id/microphoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/microphoneFragment"
+        android:name="com.example.childapp.ui.splash.permission.microphone.MicrophoneFragment"
+        android:label="fragment_microphone"
+        tools:layout="@layout/fragment_microphone" >
+        <action
+            android:id="@+id/action_microphoneFragment_to_monitorFragment"
+            app:destination="@id/monitorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/monitorFragment"
+        android:name="com.example.childapp.ui.splash.permission.monitoring.MonitorFragment"
+        android:label="fragment_monitor"
+        tools:layout="@layout/fragment_monitor" >
+        <action
+            android:id="@+id/action_monitorFragment_to_monitorSettingsFragment"
+            app:destination="@id/monitorSettingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/monitorSettingsFragment"
+        android:name="com.example.childapp.ui.splash.permission.monitoring.MonitorSettingsFragment"
+        android:label="fragment_monitor_settings"
+        tools:layout="@layout/fragment_monitor_settings" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.childapp.ui.splash.start.language.LanguageFragment"
+        tools:layout="@layout/fragment_language"
+        android:label="LanguageFragment" >
+        <action
+            android:id="@+id/action_languageFragment_to_confirmCodeFragment"
+            app:destination="@id/confirmCodeFragment" />
+    </fragment>
+</navigation>

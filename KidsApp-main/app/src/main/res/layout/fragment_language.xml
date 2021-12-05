@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBlue"
+    tools:context=".ui.splash.start.language.LanguageFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="24dp"
+        style="@style/main_card_view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                style="@style/image_view_style"
+                app:srcCompat="@drawable/ic_language" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:text="@string/choose_language"
+                style="@style/main_desc_style"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:text="@string/choose_language_definition"
+                style="@style/other_desc_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp">
+
+                <View
+                    android:id="@+id/left_circle"
+                    android:background="@drawable/half_circle_left"
+                    style="@style/my_customleft_view" />
+
+                <View style="@style/my_dot_line_view" />
+
+                <View
+                    android:id="@+id/right_circle"
+                    style="@style/my_custom_rigth_line" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:padding="8dp"
+                android:layout_marginBottom="36dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:id="@+id/language_uzb"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="4dp"
+                            app:srcCompat="@drawable/ic_uzb" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/montserrat_alternates"
+                            android:gravity="center"
+                            android:text="O'zbekcha"
+                            android:textColor="@color/colorBlack" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    android:id="@+id/language_rus"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="8dp"
+                            app:srcCompat="@drawable/ic_russian" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/montserrat_alternates"
+                            android:gravity="center"
+                            android:text="Русский"
+                            android:textColor="@color/colorBlack" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:id="@+id/language_english"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="8dp"
+                            app:srcCompat="@drawable/ic_english" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:fontFamily="@font/montserrat_alternates"
+                            android:gravity="center"
+                            android:text="English"
+                            android:textColor="@color/colorBlack" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/next_btn"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/next"
+                app:cornerRadius="11dp"
+                style="@style/my_checker_btn" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

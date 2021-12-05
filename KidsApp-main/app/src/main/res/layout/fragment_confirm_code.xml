@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.splash.start.code.ConfirmCodeFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@color/colorMainBlue"
+
+    android:layout_height="match_parent">
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="24dp"
+        style="@style/main_card_view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                style="@style/image_view_style"
+                app:srcCompat="@drawable/ic_group_137" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:text="@string/enter_code"
+                style="@style/main_desc_style"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/other_desc_style"
+                android:text="@string/about_phone_connect_info"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp">
+                <View
+                    android:id="@+id/left_circle"
+                    android:background="@drawable/half_circle_left"
+                    style="@style/my_customleft_view" />
+                <View style="@style/my_dot_line_view" />
+                <View
+                    android:id="@+id/right_circle"
+                    style="@style/my_custom_rigth_line" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:weightSum="5">
+
+                <com.google.android.material.card.MaterialCardView
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="3dp"
+                    style="@style/password_card_view_style">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/password0"
+                        style="@style/password_edittext_style"/>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/password_card_view_style"
+
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="3dp">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/password1"
+                        style="@style/password_edittext_style" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/password_card_view_style"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="3dp">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/password2"
+                        style="@style/password_edittext_style" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/password_card_view_style"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="3dp">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/password3"
+                        style="@style/password_edittext_style"
+                        />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/password_card_view_style"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="3dp">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/password4"
+                        style="@style/password_edittext_style"
+                        />
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cant_find_code"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/montserrat_alternates"
+                android:gravity="center"
+                android:text="@string/cannot_find_code"
+                android:textColor="@color/colorMainBlue" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/continue_btn"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/continue_text"
+                app:cornerRadius="11dp"
+                style="@style/my_checker_btn" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

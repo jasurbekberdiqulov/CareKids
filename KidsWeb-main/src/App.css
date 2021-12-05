@@ -1,0 +1,483 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 1600px) and (min-width: 1200px) {
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+}
+
+@media only screen and (max-width: 576px) and (min-width: 400px) {
+}
+/* .container {
+  font-family: Poppins;
+} */
+
+* {
+  box-sizing: border-box;
+}
+.translate-drop-menu {
+  width: 20px !important;
+}
+.language_icon {
+  margin-top: 40px;
+  width: 60px !important;
+}
+.navbar ul {
+  margin: 0 !important;
+  padding-left: 0 !important;
+}
+.navbar li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 45px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 82.77%;
+}
+.navbar li :hover {
+  color: #5cadf4;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar-brand {
+  padding-left: 0;
+  padding-right: 119px;
+}
+.navbar .language {
+  padding-left: 88px;
+}
+.home-title {
+  margin-top: 120px;
+  margin-bottom: 35px;
+  color: #5cadf4;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 55px;
+}
+.home-text a {
+  text-decoration: none;
+}
+.home-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+.app-store {
+  margin-top: 68px;
+}
+.play-store {
+  margin-top: 68px;
+  margin-left: 23px;
+}
+.download-title {
+  margin-top: 140px;
+  margin-left: 138px;
+  margin-bottom: 17px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+}
+.download-image {
+  margin-top: 110px;
+}
+.download-description {
+  margin-left: 138px;
+  max-width: 503px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+}
+.download-button {
+  margin-left: 138px;
+  margin-top: 43px;
+  margin-bottom: 188px;
+  border-radius: 13px;
+  width: 235px;
+  height: 57px;
+  background-color: #5cadf4 !important;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+}
+.features {
+  margin-top: 188px;
+  margin-bottom: 77px;
+}
+.features-card-menu {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+}
+.features-card {
+  width: 250px !important;
+  height: 311px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(112, 118, 123, 0.15);
+  box-sizing: border-box;
+}
+.features-card-image {
+  margin-top: 56px;
+  margin-bottom: 53px;
+}
+.features-card-title {
+  max-width: 169px;
+  padding-left: 41px;
+}
+.features-card-text {
+  text-align: center;
+  max-width: 214px;
+  padding-left: 18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163.5%;
+}
+.tab-nav {
+  width: 379px;
+  height: 80.87px;
+  background: #ffffff;
+  border-radius: 1585.77px;
+}
+
+.pricing {
+  margin-top: 180px;
+  margin-bottom: 67px;
+}
+.pricing-description {
+  max-width: 1060px;
+  height: 131px;
+  margin-left: 110px;
+  margin-bottom: 69px;
+  background: linear-gradient(
+    180deg,
+    rgba(92, 173, 244, 0.05) 0%,
+    rgba(44, 149, 241, 0.05) 100%
+  );
+  border-radius: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 156.9%;
+  padding: 21px 35px;
+}
+.pricing-tab {
+  padding-left: 40% !important;
+  margin-bottom: 92px;
+}
+.pricing-card {
+  padding: 0 !important;
+  width: 337px !important;
+  height: 512px;
+  background: #ffffff;
+  border: 0.9439px solid rgba(112, 118, 123, 0.25);
+  box-sizing: border-box;
+  box-shadow: 0px 2.8317px 47.195px rgba(0, 0, 0, 0.06);
+  border-radius: 27px;
+}
+.cardbackImg1 {
+  background-image: url("./assets/images/cardback1.svg");
+  height: 168px;
+  width: 336px;
+  background-repeat: no-repeat;
+}
+.cardbackImg2 {
+  background-image: url("./assets/images/cardback2.svg");
+  height: 168px;
+  width: 336px;
+  background-repeat: no-repeat;
+}
+.cardbackImg3 {
+  background-image: url("./assets/images/cardback3.svg");
+  height: 168px;
+  width: 336px;
+  background-repeat: no-repeat;
+}
+.pricing-card-title {
+  padding: 10px;
+  color: white;
+}
+.pricing-card-cost {
+  padding: 10px;
+  color: white;
+}
+.pricing-card-list {
+  border-bottom: 1px solid grey;
+  color: black;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.pricing-card ul {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+.pricing-card-button {
+  width: 178px;
+  height: 59px;
+  border-radius: 1585px !important;
+  margin-left: 25%;
+}
+ul {
+  list-style-type: none;
+}
+.testimonials {
+  margin-top: 205px;
+  margin-bottom: 81px;
+}
+.testimonials-card {
+  width: 520px !important;
+  height: 240px !important;
+}
+.testimonial-card-text {
+  max-width: 432px;
+  margin-top: 26px;
+  padding-left: 15px;
+}
+.faq {
+  margin-top: 166px;
+  margin-bottom: 57px;
+}
+.accordion {
+  margin-bottom: 168px;
+}
+.footer-sector {
+  background-color: #5cadf4;
+  overflow: hidden;
+  width: 1060px;
+  height: 493px;
+  border-radius: 24px;
+  margin-bottom: 180px;
+}
+.footer-sector-text {
+  color: white;
+  padding-left: 84px;
+  padding-top: 161px;
+  max-width: 730px;
+}
+.yellow-circle {
+  position: absolute;
+  background-color: #fed255;
+  border-radius: 50%;
+  width: 212px;
+  height: 212px;
+  top: -94px;
+  left: -89px;
+  z-index: 2;
+}
+.green-circle {
+  position: absolute;
+  background-color: #79d481;
+  border-radius: 50%;
+  width: 212px;
+  height: 212px;
+  top: -106px;
+  left: 41px;
+}
+.primary-circle {
+  position: absolute;
+  background-color: #b49de7;
+  border-radius: 50%;
+  width: 212px;
+  height: 212px;
+  top: -108px;
+  right: -89px;
+}
+.payment-title {
+  margin-top: 188px;
+  margin-bottom: 22px;
+}
+.payme {
+  width: 176px;
+  height: 60px;
+  border-radius: 6px;
+  margin-top: 48px;
+}
+.click {
+  width: 176px;
+  height: 60px;
+  border-radius: 6px;
+  margin-left: 24px;
+  margin-top: 48px;
+}
+.pay {
+  margin-top: 188px;
+  margin-left: 30%;
+}
+.footer-sector-app-store {
+  background-color: #fed255 !important;
+  border: 0px !important;
+  margin-top: 75px;
+  margin-left: 84px;
+  width: 186px;
+  height: 60px;
+  color: black !important;
+}
+.footer-sector-play-store {
+  background-color: #fed255 !important;
+  border: 0px !important;
+  margin-top: 75px;
+  margin-left: 25px;
+  width: 186px;
+  height: 60px;
+  color: black !important;
+}
+.footer-nav {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 100px;
+}
+.footer-nav-li {
+  margin: 30px;
+  display: inline-block;
+}
+.footer-nav-li a {
+  text-decoration: none;
+  color: black;
+}
+.footer-sector-icon {
+  display: inline-block;
+  margin: 25px;
+  display: inline-block;
+}
+.about-app {
+  margin-top: 290px;
+  background-image: url("./assets/images/eclipse.svg");
+  height: 603px;
+  background-repeat: no-repeat;
+}
+.about-app-text1 {
+  margin-top: 148px;
+  margin-bottom: 0 !important;
+  color: #fed255;
+}
+.about-app-text2 {
+  color: white;
+  max-width: 436px;
+  margin-top: 25px;
+  line-height: 36px;
+}
+.about-app-title {
+  color: white;
+}
+.about-app-image {
+  margin-left: 100px;
+}
+.features-app-card-boy {
+  position: relative;
+  margin-top: 180px;
+  width: 507px;
+  height: 516px;
+  border-radius: 28px;
+  background: #e9eef7;
+}
+.features-app-card-girl {
+  position: relative;
+  margin-top: 250px;
+  width: 507px;
+  height: 516px;
+  border-radius: 28px;
+  background: #e9eef7;
+}
+.features-app-boy {
+  position: absolute;
+  top: -120px;
+}
+.features-app-girl {
+  position: absolute;
+  top: -120px;
+  right: 0;
+}
+.features-app-card-title {
+  position: absolute;
+  width: 253px;
+  height: 38px;
+  left: 56px;
+  top: 191px;
+  color: #5cadf4;
+  letter-spacing: 3px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 156.9%;
+}
+.features-app-card-text1 {
+  position: absolute;
+  width: 400px;
+  left: 50px;
+  top: 257px;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 31px;
+}
+.features-app-card-text2 {
+  position: absolute;
+  width: 392px;
+  left: 50px;
+  top: 367px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+}

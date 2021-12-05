@@ -1,0 +1,23 @@
+.features-card {
+  width: 250px;
+  height: 311px;
+  background: #ffffff;
+  box-shadow: 0px 10px 25px rgba(65, 160, 242, 0.15);
+  border-radius: 14px;
+  margin-top: 77px;
+}
+.features-card-title {
+  padding-left: 25%;
+  margin-top: 53px;
+  margin-bottom: 15px;
+  max-width: 169px;
+}
+.features-card-text {
+  max-width: 214px;
+}
+.features-card-icon {
+  padding-top: 49px;
+}
+.features {
+  margin-bottom: 220px;
+}

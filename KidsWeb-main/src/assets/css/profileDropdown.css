@@ -1,0 +1,13 @@
+.language_icon {
+  width: 35px;
+}
+
+.language_icon :hover {
+  cursor: pointer;
+}
+
+.drop-menu {
+  font-size: 70px;
+  width: 70px;
+  min-width: 5rem;
+}

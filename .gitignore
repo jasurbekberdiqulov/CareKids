@@ -1,0 +1,15 @@
+/KidsApp-main/*.iml
+/KidsApp-main/.gradle
+/KidsApp-main/local.properties
+/KidsApp-main/.idea/caches
+/KidsApp-main/.idea/libraries
+/KidsApp-main/.idea/modules.xml
+/KidsApp-main/.idea/workspace.xml
+/KidsApp-main/.idea/navEditor.xml
+/KidsApp-main/.idea/assetWizardSettings.xml
+/KidsApp-main/.DS_Store
+/KidsApp-main/build
+/KidsApp-main/captures
+/KidsApp-main/.externalNativeBuild
+/KidsApp-main/.cxx
+/KidsApp-main/local.properties
